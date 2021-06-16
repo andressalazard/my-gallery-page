@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://my-gallery-page-puce.vercel.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/andressalazard/my-gallery-page">
       Solution
     </a>
     <span> | </span>
@@ -36,7 +36,8 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![result-01](https://user-images.githubusercontent.com/85258549/122252988-63825e00-ce91-11eb-9418-287d78f22879.png)
+![result-02](https://user-images.githubusercontent.com/85258549/122253170-8b71c180-ce91-11eb-89c3-c9483fa70996.png)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
