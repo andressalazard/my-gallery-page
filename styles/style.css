@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
+
+* {
+  box-sizing: border-box;
+  font: inherit;
+  color: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+#container {
+  margin: 30px;
+}
+
+.user-profile {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.user-identification {
+  margin: 10px 20px;
+  display: block;
+}
+
+.profile-photo {
+  max-height: 30vh;
+  border-radius: 20px;
+}
+
+.user-description {
+  margin: 10px 0;
+  font-weight: 600;
+}
+
+.user-name {
+  font-size: 1.5rem;
+  color: #4e5150;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.user-location {
+  font-size: 14px;
+  color: #a9a9a9;
+  margin: 0;
+}
+
+.user-media-stats {
+  display: flex;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  margin: 1rem 22rem;
+}
+
+.stat-item {
+  display: block;
+  background-color: #e5e5e5;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 9vw;
+}
+
+.stat-value {
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.stat-description {
+  margin: 0;
+  margin-bottom: 20px;
+  color: #bdbdbd;
+}
+
+.user-gallery {
+  display: block;
+  margin: 20px 110px;
+  text-align: center;
+}
+
+.gallery-row-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.square-image {
+  max-height: 51vh;
+  border-radius: 20px;
+}
+
+.horizontal-image {
+  max-height: 51vh;
+  border-radius: 20px;
+}
+
+.vertical-image {
+  border-radius: 20px;
+  height: 100%;
+  margin-right: 30px;
+}
+
+.gallery-row-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.horizontal-row-1 {
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.horizontal-row-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  text-align: center;
+  color: #4e5150;
+  margin: 40px;
+}
+
+footer p {
+  margin: 20px 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #18a0fb;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  #container {
+    margin: 20px;
+  }
+
+  .user-identification {
+    margin: 10px;
+  }
+
+  .profile-photo {
+    max-height: 20vh;
+  }
+
+  .user-name {
+    margin-bottom: 5px;
+  }
+
+  .user-media-stats {
+    margin: 1rem 5rem;
+  }
+
+  .stat-item {
+    max-width: 16vw;
+    max-height: 10vh;
+  }
+
+  .stat-value {
+    margin-top: 8px;
+    margin-bottom: 0;
+  }
+
+  .stat-description {
+    font-size: 0.9rem;
+  }
+
+  .user-gallery {
+    margin: 0;
+  }
+
+  .gallery-row-1 {
+    margin-bottom: 20px;
+  }
+
+  .square-image {
+    max-height: 23vh;
+  }
+
+  .horizontal-image {
+    max-height: 23vh;
+  }
+
+  .vertical-image {
+    height: 49vh;
+    margin-right: 0;
+  }
+
+  .horizontal-row-1 {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 425px) {
+  #container {
+    margin: 0;
+  }
+
+  .profile-photo {
+    max-height: 10vh;
+  }
+
+  .user-name {
+    margin-bottom: 5px;
+  }
+
+  .user-media-stats {
+    margin: 1rem 5rem;
+  }
+
+  .stat-item {
+    max-width: 17vw;
+    max-height: 9vh;
+  }
+
+  .stat-value {
+    margin-top: 5px;
+    margin-bottom: 1px;
+    font-size: 1.125rem;
+  }
+
+  .stat-description {
+    font-size: 0.8rem;
+  }
+
+  .user-gallery {
+    margin: 20px;
+  }
+
+  .gallery-row-1 {
+    margin-bottom: 10px;
+  }
+
+  .square-image {
+    max-height: 21vh;
+  }
+
+  .horizontal-image {
+    max-height: 21vh;
+  }
+
+  .vertical-image {
+    height: 45vh;
+    margin-right: 0;
+  }
+
+  .horizontal-row-1 {
+    margin-bottom: 10px;
+  }
+}
